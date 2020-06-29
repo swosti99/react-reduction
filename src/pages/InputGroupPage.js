@@ -38,7 +38,11 @@ const InputGroupPage = () => {
               <InputGroup>
                 <InputGroupAddon addonType="prepend">
                   <InputGroupText>
-                    <Input addon type="checkbox" aria-label="Checkbox for following text input" />
+                    <Input
+                      addon
+                      type="checkbox"
+                      aria-label="Checkbox for following text input"
+                    />
                   </InputGroupText>
                 </InputGroupAddon>
                 <Input placeholder="Check it out" />
@@ -46,7 +50,9 @@ const InputGroupPage = () => {
               <br />
               <InputGroup>
                 <Input placeholder="username" />
-                <InputGroupAddon addonType="append">@example.com</InputGroupAddon>
+                <InputGroupAddon addonType="append">
+                  @example.com
+                </InputGroupAddon>
               </InputGroup>
               <br />
               <InputGroup>
@@ -130,22 +136,20 @@ const InputGroupPage = () => {
             <CardHeader>Buttons / Dropdowns</CardHeader>
             <CardBody>
               <InputGroup>
-                <InputGroupAddon addonType="prepend"><Button>I'm a button</Button></InputGroupAddon>
+                <InputGroupAddon addonType="prepend">
+                  <Button>I'm a button</Button>
+                </InputGroupAddon>
                 <Input />
               </InputGroup>
               <br />
               <InputGroup>
                 <Input />
                 <UncontrolledButtonDropdown addonType="append">
-                  <DropdownToggle caret>
-                    Button Dropdown
-            </DropdownToggle>
+                  <DropdownToggle caret>Button Dropdown</DropdownToggle>
                   <DropdownMenu>
-                    <DropdownItem header>Header</DropdownItem>
-                    <DropdownItem disabled>Action</DropdownItem>
-                    <DropdownItem>Another Action</DropdownItem>
+                    ><DropdownItem>UDP</DropdownItem>
                     <DropdownItem divider />
-                    <DropdownItem>Another Action</DropdownItem>
+                    <DropdownItem>FTP</DropdownItem>
                   </DropdownMenu>
                 </UncontrolledButtonDropdown>
               </InputGroup>
@@ -163,7 +167,9 @@ const InputGroupPage = () => {
                   </DropdownMenu>
                 </UncontrolledButtonDropdown>
                 <Input placeholder="and..." />
-                <InputGroupAddon addonType="append"><Button color="secondary">I'm a button</Button></InputGroupAddon>
+                <InputGroupAddon addonType="append">
+                  <Button color="secondary">I'm a button</Button>
+                </InputGroupAddon>
               </InputGroup>
             </CardBody>
           </Card>
