@@ -1,7 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import FormPage from './pages/FormPage';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import "bootstrap/dist/css/bootstrap.css";
 
-import App from './App';
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
 
-ReactDOM.render(<FormPage />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById("root"));
+
+serviceWorker.unregister();
